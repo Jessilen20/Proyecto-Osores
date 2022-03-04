@@ -1,0 +1,12 @@
+$colorPrin: #30273a;
+
+.footer {
+    height: 10vh;
+    color: #dad0da;
+    background-color: $colorPrin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}

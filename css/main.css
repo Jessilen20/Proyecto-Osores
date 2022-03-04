@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shizuru&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-.fondo {
-  background-color: rgba(189, 135, 214, 0.527); }
-
 .header {
   height: 20vh;
   background-image: radial-gradient(#ebebce, rgba(127, 54, 161, 0.815)); }
@@ -16,6 +8,24 @@
     color: #860e22;
     font-size: 90px;
     font-weight: bold; }
+
+.footer {
+  height: 10vh;
+  color: #dad0da;
+  background-color: #30273a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.fondo {
+  background-color: rgba(241, 236, 187, 0.527); }
 
 .article {
   color: #860e22; }
@@ -46,14 +56,3 @@
   color: #772f5f; }
   .list .listItem {
     margin: 10px; }
-
-/* FOOTER */
-.footer {
-  height: 10vh;
-  color: #080708;
-  background-color: #9fbdf3;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 10px; }
