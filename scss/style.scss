@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shizuru&display=swap');
-@import "_header";
-@import "_footer";
+@import "variables";
+@import "social";
+@import "header";
+@import "footer";
 
 *{
     margin: 0;

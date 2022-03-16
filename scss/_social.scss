@@ -1,0 +1,26 @@
+.social{
+    background-color: slateblue;
+    width: 60px;
+    position: absolute;
+    top: 20vh + 20;
+    right: 20px;
+    ul{
+        list-style: none;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+        li{
+            a{
+                color:$blanco;
+                text-decoration: none;
+                font-size: 1.5rem;
+            } &:hover{
+                transform: scale(1,4);
+            }
+        }
+
+    }
+}

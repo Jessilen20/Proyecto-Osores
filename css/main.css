@@ -1,4 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shizuru&display=swap");
+.social {
+  background-color: slateblue;
+  width: 60px;
+  position: absolute;
+  top: 40vh;
+  right: 20px; }
+  .social ul {
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; }
+    .social ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem; }
+    .social ul li:hover {
+      transform: scale(1, 4); }
+
 .header {
   height: 20vh;
   background-image: radial-gradient(#ebebce, rgba(127, 54, 161, 0.815)); }
