@@ -1,12 +1,14 @@
 .social{
-    background-color: slateblue;
+    background-color: $blanco;
     width: 60px;
     position: absolute;
-    top: 20vh + 20;
-    right: 20px;
+    top: 20vh + 10;
+    border-radius: 30px;
+    right: 10px;
+    
     ul{
         list-style: none;
-        padding: 1rem;
+        padding: 0.5rem;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -16,11 +18,34 @@
             a{
                 color:$blanco;
                 text-decoration: none;
-                font-size: 1.5rem;
+                font-size: 1.7rem;
             } &:hover{
-                transform: scale(1,4);
+                transform: scale(1.5);
             }
         }
 
     }
+}
+
+//mapita practica
+$redes: ( /*Declaramos nuestro mapa*/
+        facebook:  #3a5795,
+        youtube: #ec451b,
+        instagram: #fcad47
+); 
+
+.icon-social{
+    padding: 0.5rem;
+    border-radius: 30px;
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
+@each $red, $color in $redes {
+   .btn--#{$red} {
+       color: $color;
+   }
+   &:hover.btn--#{$red}{ 
+       background-color: $colorbase;
+       @extend .icon-social;
+   }
 }

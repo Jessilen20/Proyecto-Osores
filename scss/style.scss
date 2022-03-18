@@ -18,19 +18,22 @@
     color: rgb(134, 14, 34);
 }
 
-.text{
+//mixin
+@mixin titulos {
     font-family: 'Roboto', sans-serif;
-    color: #1b0a16;
     font-weight: bold;
     text-align: center;
+}
+
+.text{
+    @include titulos;
+    color: #1b0a16;
     margin-top: 15px;
     margin-bottom: 20px;
     }
 
 .bloque{
-    font-family:'Roboto', sans-serif;
-    font-weight: bold;
-    text-align: center;
+    @include titulos;
     color: #772f5f;
 
     .bloque__img{
@@ -43,12 +46,11 @@
 
 .list{
     list-style: none;
-    font-family:'Roboto', sans-serif;
-    font-weight: bold;
-    text-align: center;
+    @include titulos;
     color: #772f5f;
 
     .listItem{
         margin: 10px;
     }
 }
+

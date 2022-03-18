@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shizuru&display=swap");
 .social {
-  background-color: slateblue;
+  background-color: white;
   width: 60px;
   position: absolute;
-  top: 40vh;
-  right: 20px; }
+  top: 30vh;
+  border-radius: 30px;
+  right: 10px; }
   .social ul {
     list-style: none;
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,9 +16,32 @@
     .social ul li a {
       color: white;
       text-decoration: none;
-      font-size: 1.5rem; }
+      font-size: 1.7rem; }
     .social ul li:hover {
-      transform: scale(1, 4); }
+      transform: scale(1.5); }
+
+.icon-social, .btn--facebook:hover, .btn--youtube:hover, .btn--instagram:hover {
+  padding: 0.5rem;
+  border-radius: 30px; }
+
+/*Creamos el bucle para usar los valores del mapa*/
+.btn--facebook {
+  color: #3a5795; }
+
+:hover.btn--facebook {
+  background-color: rgba(127, 54, 161, 0.815); }
+
+.btn--youtube {
+  color: #ec451b; }
+
+:hover.btn--youtube {
+  background-color: rgba(127, 54, 161, 0.815); }
+
+.btn--instagram {
+  color: #fcad47; }
+
+:hover.btn--instagram {
+  background-color: rgba(127, 54, 161, 0.815); }
 
 .header {
   height: 20vh;
@@ -52,9 +76,9 @@
 
 .text {
   font-family: 'Roboto', sans-serif;
-  color: #1b0a16;
   font-weight: bold;
   text-align: center;
+  color: #1b0a16;
   margin-top: 15px;
   margin-bottom: 20px; }
 

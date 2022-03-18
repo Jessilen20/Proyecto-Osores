@@ -1,0 +1,10 @@
+En el archivo index.html sume SEO en los siguientes puntos:
+-Descripcion: Con la etiqueta meta description se agregó un pequeño
+resumen de lo que trata la pagina.
+"Tienda virtual, encontraras articulos de papeleria, peluches y curiosidades de distintos animes"
+
+-Palabras claves: con la etiqueta keywords, se agregaron las palabras que ayudarian en la busqueda de mi sitio
+"Papeleria, regalos, fanmade, animes, productos, precio"
+
+-Titulos:
+Se agregaron los encavezados a la pagina index.html y a la de producto.html
